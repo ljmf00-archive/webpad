@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Webpad &bull; Web-based Text Editor</title>
+    <script src="lib/jquery/jquery-3.0.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <link type="text/css" rel="stylesheet" media="screen" href="css/main.css">
+  </head>
+  <body>
+    <pre id="editor">#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+    cout << "Hello World" << endl;
+    return 0;
+}</pre>
+    <pre id="statusBar"><div class="ace_status-indicator" style="right: 20px;">C/C++</div><div class="ace_status-indicator" style="right: 90px;">UTF-8</div></pre>
+    <script src="lib/ace-editor/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/ace-editor/ext-statusbar.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/ace-editor/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/editor.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
